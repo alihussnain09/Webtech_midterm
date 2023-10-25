@@ -8,6 +8,7 @@
     <title>FAQ</title>
   </head>
   <body>
+    
     <h1>Frequently Asked Questions</h1>
     <div class="faq-container">
       <div class="faq active">
@@ -77,6 +78,18 @@
         </button>
       </div>
     </div>
-    <script src="script.js"></script>
+
+    <div class="Add-Section">
+        <input type="text" id="question" name="question" placeholder="Enter your question" required>
+        <br>
+        <input type="text" id="answer" name="answer" placeholder="Enter your answer" required>
+        <br>
+        <button type="button" onclick="AddQuestion()" class="addQuestion">Add Question</button>
+    </div>
+
+    <script src="index.js"></script>
   </body>
 </html>
+
+
+

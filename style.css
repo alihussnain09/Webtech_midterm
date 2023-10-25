@@ -105,3 +105,29 @@ h1 {
 .faq.active .faq-toggle {
   background-color: #9fa4a8;
 }
+.textarea{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+}
+
+#question {
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+#answer {
+    border-radius: 20px;
+    width: 50%;
+    height: 40px;
+}
+
+.addQuestion {
+    border-radius: 40px;
+    margin-top: 20px;
+    width: 20%;
+    height: 40px;
+}
